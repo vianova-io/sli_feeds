@@ -1,0 +1,52 @@
+Operator,Feed Type,Driver version,Telemetry,Trip distance,Quality incidents,Operator reactivity,Uptime,Data freshness,Vehicles on prow
+Awto,gbfs,1,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,0
+Beam,mds,0.3.0,⭐⭐⭐⭐⭐,⭐,0,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐,⭐
+Billy,gbfs,1,0,0,0,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐,0
+Bird,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐,⭐,⭐⭐⭐⭐,0,⭐
+Bird,gbfs,2,0,0,⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Bit Mobility,mds,1.0,⭐,⭐⭐⭐⭐⭐,0,No data,⭐⭐⭐⭐⭐,0,0
+BoltEU,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐,⭐⭐⭐,0
+BoltEU,gbfs,2,0,0,⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+COOLTRA,gbfs,1,0,0,⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,0
+Check,gbfs,1,0,0,⭐⭐⭐,0,⭐⭐⭐⭐⭐,⭐,0
+Dott,mds,1.0,No data,No data,⭐,0,⭐⭐⭐⭐,0,⭐⭐⭐⭐⭐
+Felyx,gbfs,1,0,0,0,⭐⭐,⭐⭐⭐⭐⭐,⭐,0
+GoGreenCity,mds,1.1,⭐,⭐⭐⭐⭐⭐,⭐⭐⭐,0,0,0,0
+GoSharing,mds,1.2.0,⭐,⭐⭐⭐⭐⭐,⭐,No data,⭐⭐⭐⭐⭐,0,0
+Goteborg,gbfs,1,0,0,0,No data,⭐⭐⭐⭐,⭐,0
+HELBIZ,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐⭐,0
+Inurba,gbfs,2,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+LeasysGO!,mds,1.1,No data,No data,⭐⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,0,⭐⭐⭐⭐⭐
+Lime,mds,0.3.2,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐,0,⭐⭐⭐⭐⭐,0,0
+Lime,gbfs,2,0,0,⭐⭐⭐,0,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐
+Link,gbfs,2,0,0,⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Mimoto,gbfs,1,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,0
+Mobility Go,gbfs,2,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Pick_e_bike,gbfs,2,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Pony,mds,1.0,⭐,⭐⭐⭐⭐⭐,⭐⭐,0,⭐⭐⭐⭐⭐,0,0
+Pony,gbfs,1,0,0,⭐⭐,0,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Poppy,gbfs,1,0,0,⭐,No data,⭐⭐⭐⭐⭐,⭐,0
+Publibike,gbfs,1,0,0,⭐⭐,⭐,⭐⭐⭐⭐⭐,⭐,0
+Renault,gbfs,1,0,0,⭐⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+RideMovi,mds,1.0,⭐⭐⭐,⭐,⭐⭐,0,0,⭐⭐⭐⭐,0
+Ryde,mds,1.0,⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐,⭐⭐⭐⭐⭐,0,⭐⭐
+SHARE-NOW,mds,1.1,⭐⭐⭐⭐⭐,No data,⭐⭐,No data,⭐⭐⭐⭐⭐,0,0
+Seven Group,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐,⭐⭐,⭐⭐⭐⭐,0,⭐⭐⭐
+Spin,mds,0.4.0,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,0,⭐⭐⭐⭐
+Spin,gbfs,1,0,0,⭐⭐,No data,⭐⭐⭐⭐,⭐,0
+Superpedestrian,mds,1.0,⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐,0,⭐,⭐⭐,0
+Tier,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐,⭐,0
+Tier,gbfs,2,0,0,⭐⭐⭐,0,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Voi,mds,0.4.0,⭐,⭐,⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐,⭐⭐,0
+Voi,gbfs,1,0,0,⭐⭐⭐⭐⭐,No data,⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+WIND,mds,0.4.1,No data,No data,⭐⭐⭐,No data,⭐⭐⭐⭐⭐,0,0
+Wheels,gbfs,2,0,0,⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,⭐⭐⭐⭐⭐
+Zeus,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,0,No data,⭐⭐⭐⭐,0,0
+ZigZag,gbfs,1,0,0,⭐,No data,⭐⭐⭐⭐⭐,⭐,0
+Zipp,mds,0.3.2,⭐⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,0,0
+Zisch,mds,1.0,⭐⭐⭐⭐,⭐⭐⭐⭐⭐,⭐,⭐⭐,⭐⭐⭐,0,⭐⭐
+Zvipp,gbfs,1,0,0,0,No data,⭐⭐⭐⭐⭐,⭐,0
+Zwings,gbfs,1,0,0,⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,⭐,0
+cargoroo,gbfs,1,0,0,0,⭐,⭐⭐⭐⭐⭐,⭐,0
+highspeedservice,mds,0.3.0,No data,No data,⭐⭐⭐⭐,No data,⭐⭐⭐⭐⭐,0,⭐⭐⭐⭐⭐
+nextbike,gbfs,1,0,0,⭐⭐⭐,No data,⭐⭐⭐⭐,⭐,0
