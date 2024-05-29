@@ -43,60 +43,60 @@ We find the feeds that have lost devices.
 
 |    | Operator         | Feed Type   | Driver version   | Telemetry   | Trip distance   | Quality incidents   | Operator reactivity   | Uptime     | Data freshness   | Vehicles on prow   |
 |----|------------------|-------------|------------------|-------------|-----------------|---------------------|-----------------------|------------|------------------|--------------------|
-| 48 | Atom             | mds         | 1.1              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐                | ⭐⭐       | 0                | ⭐                 |
-|  2 | Beam             | mds         | 0.3.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | 0                   | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-|  3 | Billy            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 25 | Bird             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐                    | ⭐⭐       | 0                | ⭐⭐⭐             |
-| 42 | Bit Mobility     | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 44 | BoltEU           | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | ⭐               | ⭐                 |
-| 51 | Boom             | mds         | 1.1              | No data     | No data         | ⭐⭐⭐              | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 24 | COOLTRA          | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | ⭐               | ⭐⭐⭐⭐⭐         |
-| 36 | Check            | gbfs        | 1                | 0           | 0               | ⭐                  | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-|  7 | City Bike        | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 39 | Cooltra          | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | No data         | 0                   | ⭐⭐⭐⭐⭐            | ⭐         | 0                | 0                  |
-| 13 | Dott             | mds         | 1.2.0            | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐                    | ⭐⭐⭐⭐   | 0                | ⭐⭐               |
-| 29 | Edog             | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | 0                   | 0                     | ⭐⭐⭐⭐   | ⭐               | 0                  |
-| 47 | Ele              | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐⭐                | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 23 | Emmy             | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐⭐⭐⭐ | ⭐⭐             | 0                  |
-| 38 | Felyx            | gbfs        | 1                | 0           | 0               | ⭐                  | ⭐                    | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 22 | Fenix            | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | ⭐⭐⭐     | 0                | 0                  |
-| 46 | Freebike         | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-|  4 | GoSharing        | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐                  | 0                     | 0          | ⭐⭐             | 0                  |
-| 49 | Goteborg         | gbfs        | 1                | 0           | 0               | ⭐⭐⭐              | No data               | ⭐⭐⭐     | ⭐               | 0                  |
-| 14 | HELBIZ           | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | 0                     | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 15 | Hopp             | gbfs        | 2                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 30 | Inurba           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 53 | LeasysGO!        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 19 | Lime             | mds         | 1.1              | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐⭐                | ⭐⭐⭐⭐              | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 16 | Lime             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 45 | Link             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐       | ⭐               | ⭐⭐⭐⭐⭐         |
-|  6 | Mimoto           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | ⭐               | ⭐⭐⭐⭐⭐         |
-| 32 | Pick_e_bike      | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 27 | Pony             | mds         | 1.0              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | 0                     | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 18 | Poppy            | gbfs        | 1                | 0           | 0               | ⭐                  | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 10 | Publibike        | gbfs        | 1                | 0           | 0               | ⭐⭐⭐              | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 37 | RideMovi         | mds         | 1.0              | ⭐⭐⭐      | ⭐              | ⭐                  | 0                     | ⭐⭐⭐⭐   | 0                | 0                  |
-|  0 | Roland           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 43 | Ryde             | mds         | 1.0              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐                | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 34 | SHARE-NOW        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐⭐         |
-| 31 | Seven Group      | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐       | 0                | ⭐⭐⭐⭐           |
-| 35 | Spin             | mds         | 0.4.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 41 | Spin             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 33 | Superpedestrian  | mds         | 1.0              | ⭐⭐        | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐             |
-| 26 | Tier             | mds         | 1.0              | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐                  | ⭐                    | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 50 | Tier             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐            | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
-| 52 | Velospot         | gbfs        | 2                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 11 | Voi              | mds         | 1.2.0            | ⭐          | ⭐              | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 12 | Voi              | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 40 | WIND             | mds         | 0.4.1            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐⭐         |
-|  1 | Wheels           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
-| 21 | Yego             | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | 0                   | ⭐⭐⭐                | 0          | 0                | ⭐⭐⭐⭐⭐         |
-| 17 | Zeus             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 28 | ZigZag           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
-| 20 | Zisch            | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | ⭐                    | ⭐         | 0                | ⭐⭐⭐⭐⭐         |
-|  8 | cargoroo         | gbfs        | 1                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-|  5 | highspeedservice | mds         | 0.3.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-|  9 | nextbike         | gbfs        | 2                | 0           | 0               | ⭐                  | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐             |
+|  9 | Atom             | mds         | 1.1              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐                | ⭐⭐       | 0                | ⭐                 |
+| 32 | Beam             | mds         | 0.3.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | 0                   | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 31 | Billy            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
+| 15 | Bird             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐                    | ⭐⭐       | 0                | ⭐⭐⭐             |
+| 41 | Bit Mobility     | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
+| 47 | BoltEU           | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | ⭐               | ⭐                 |
+| 11 | Boom             | mds         | 1.1              | No data     | No data         | ⭐⭐⭐              | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
+|  6 | COOLTRA          | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | ⭐               | ⭐⭐⭐⭐⭐         |
+| 46 | Check            | gbfs        | 1                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+| 38 | City Bike        | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 22 | Cooltra          | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | No data         | 0                   | ⭐⭐⭐⭐⭐            | ⭐         | 0                | 0                  |
+| 25 | Dott             | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | 0                     | ⭐         | 0                | ⭐⭐⭐⭐⭐         |
+| 16 | Edog             | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | 0                   | 0                     | ⭐⭐⭐⭐   | ⭐               | 0                  |
+| 50 | Ele              | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | 0                   | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+|  5 | Emmy             | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐⭐⭐⭐ | ⭐⭐             | 0                  |
+| 21 | Felyx            | gbfs        | 1                | 0           | 0               | ⭐                  | ⭐                    | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+|  3 | Fenix            | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | ⭐⭐⭐     | 0                | 0                  |
+| 48 | Freebike         | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 33 | GoSharing        | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐                | 0                     | 0          | ⭐⭐             | 0                  |
+| 14 | Goteborg         | gbfs        | 1                | 0           | 0               | ⭐⭐⭐              | No data               | ⭐⭐⭐     | ⭐               | 0                  |
+| 44 | HELBIZ           | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐              | ⭐⭐⭐⭐            | 0                     | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 45 | Hopp             | gbfs        | 2                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 20 | Inurba           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 13 | LeasysGO!        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
+|  8 | Lime             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐                | ⭐                    | ⭐⭐⭐⭐⭐ | 0                | ⭐                 |
+| 29 | Lime             | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
+| 51 | Link             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐       | ⭐               | ⭐⭐⭐⭐⭐         |
+| 37 | Mimoto           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | ⭐               | ⭐⭐⭐⭐⭐         |
+| 30 | Pick_e_bike      | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+| 18 | Pony             | mds         | 1.0              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | 0                     | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 52 | Poppy            | gbfs        | 1                | 0           | 0               | ⭐                  | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+|  1 | Publibike        | gbfs        | 1                | 0           | 0               | ⭐⭐⭐              | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+| 23 | RideMovi         | mds         | 1.0              | ⭐⭐⭐      | ⭐              | ⭐                  | 0                     | ⭐⭐⭐⭐   | 0                | 0                  |
+| 35 | Roland           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 49 | Ryde             | mds         | 1.0              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 26 | SHARE-NOW        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐⭐         |
+| 43 | Seven Group      | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐       | 0                | ⭐⭐⭐⭐           |
+| 28 | Spin             | mds         | 0.4.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
+| 42 | Spin             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 27 | Superpedestrian  | mds         | 1.0              | ⭐⭐        | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐             |
+| 17 | Tier             | mds         | 1.0              | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐                  | ⭐                    | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 10 | Tier             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐            | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
+| 12 | Velospot         | gbfs        | 2                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
+| 39 | Voi              | mds         | 1.2.0            | ⭐          | ⭐              | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+| 40 | Voi              | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
+| 24 | WIND             | mds         | 0.4.1            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐⭐         |
+| 36 | Wheels           | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
+|  7 | Yego             | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐                  | ⭐⭐⭐                | 0          | 0                | ⭐⭐⭐⭐⭐         |
+| 53 | Zeus             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | 0                  |
+| 19 | ZigZag           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐     | ⭐               | ⭐⭐⭐⭐⭐         |
+|  4 | Zisch            | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐            | ⭐                    | ⭐         | 0                | ⭐⭐⭐⭐⭐         |
+|  2 | cargoroo         | gbfs        | 1                | 0           | 0               | 0                   | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
+| 34 | highspeedservice | mds         | 0.3.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
+|  0 | nextbike         | gbfs        | 2                | 0           | 0               | ⭐                  | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐             |
 ## SLI measure
 
 ### Telemetry score
