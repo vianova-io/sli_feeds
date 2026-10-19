@@ -1,286 +1,165 @@
-# Data and service quality
-
-## How it can affect your decision process.
-
-At Vianova, we truly believe that data can help user take better decision. In this context, the more the data is accurate, the better will be the decision. We have decided to give more visibility on the quality of the data we can access, per provider and be totally transparent to our clients so they can consider potential limitations while using our product features.
-
-In order to measure data source quality, we adopted the well know SLO/SLI methodology.
-
-We have defined 7 Indicators as of today, that could express simply and comprehensively the exact objectives that could affect a service quality and we are constantly measuring them with SLI's.
-
-## SLI
-
-### Telemetry score
-
-The number of individual GPS coordinates, collected for a trip, in average. This metric could have a big impact on the way we understand a trip and the route taken within a city. For more informations you can refer to our dedicated article.
-
-### Trip distance score
-
-Having the full distance of trip means better intermediate sampling but also global quality. It can vary from crow flies to detailed path.
-
-### Incident score
-
-Accessing the data is not always easy. The number of incident is a good indicator of past issues and possible downtime of the provider API's.
-
-### Provider reactivity
-
-How fast are the operators to accept feed requests coming from our customers.
-
-### API Uptime
-
-Uptime percentage of the operators API
-
-### Data freshness
-
-This indicator will help us to know how fresh is the data sent by the operators API. 
-
-### Vehicles on prow
-
-We find the feeds that have lost devices.
-
-## SLI Scores 
-
-
-|    | Operator         | Feed Type   | Driver version   | Telemetry   | Trip distance   | Quality incidents   | Operator reactivity   | Uptime     | Data freshness   | Vehicles on prow   |
-|----|------------------|-------------|------------------|-------------|-----------------|---------------------|-----------------------|------------|------------------|--------------------|
-| 52 | Atom             | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-|  5 | Ayva             | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 33 | Beam             | mds         | 0.3.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 18 | Billy            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 34 | Bird             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐                  | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐           |
-| 12 | Bit Mobility     | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 43 | Bolt             | mds         | 1.0              | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐               |
-| 15 | Boom             | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 68 | Bydue            | mds         | 1.2.0            | No data     | No data         | No data             | No data               | No data    | No data          | No data            |
-| 41 | COOLTRA          | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 67 | COOLTRA          | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 59 | Call a bike      | mds         | 2.0.0            | ⭐⭐⭐      | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | 0                     | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 51 | Check            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 35 | City Bike        | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 64 | Cooltra          | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | ⭐               | ⭐                 |
-| 26 | Cooltra          | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 32 | Donkey           | mds         | 2.0.0.donkey     | ⭐          | ⭐              | 0                   | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-|  1 | Dott             | mds         | 2.0.0            | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐⭐          | ⭐⭐⭐                | ⭐⭐⭐⭐   | 0                | 0                  |
-| 10 | Edog             | mds         | 2.0.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐            | ⭐⭐⭐     | 0                | 0                  |
-| 40 | Ele              | mds         | 1.2.0            | ⭐⭐⭐⭐⭐  | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 38 | Emmy             | mds         | 1.2.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐             |
-|  0 | Felyx            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 28 | Fenix            | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 29 | Freebike         | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 39 | GoSharing        | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 66 | Goteborg         | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 46 | HELBIZ           | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-|  3 | Hopp             | mds         | unknown          | No data     | No data         | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 49 | Hopp             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐              | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 22 | Jump             | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 48 | LeasysGO!        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 11 | Lime             | mds         | 1.0.lime         | No data     | No data         | ⭐⭐⭐⭐⭐          | ⭐                    | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 61 | MVG-Rad          | gbfs        | 2                | No data     | No data         | No data             | No data               | No data    | No data          | No data            |
-| 27 | Mimoto           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-|  7 | Neuron           | mds         | 2.0.0            | ⭐⭐⭐⭐⭐  | No data         | ⭐⭐⭐⭐⭐          | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 54 | Pick_e_bike      | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-|  9 | Pikyrent         | gbfs        | 2                | 0           | 0               | ⭐⭐⭐              | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 42 | Pony             | mds         | 2.0.0            | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐                | No data               | ⭐⭐⭐⭐⭐ | 0                | 0                  |
-| 20 | Poppy            | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐            | No data               | 0          | ⭐               | 0                  |
-| 21 | Publibike        | gbfs        | 2                | 0           | 0               | ⭐⭐                | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | 0                  |
-| 63 | Rapp             | mds         | 1.2.0            | No data     | No data         | No data             | No data               | No data    | No data          | No data            |
-| 31 | RideMovi         | mds         | 1.0              | ⭐⭐⭐      | ⭐              | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐               |
-| 47 | Ridemovi         | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 23 | Ryde             | mds         | 1.0              | ⭐          | ⭐⭐⭐⭐⭐      | ⭐⭐⭐⭐            | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | ⭐⭐⭐           | 0                  |
-| 62 | SHARE-NOW        | mds         | 1.1              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 57 | ShareBike        | mds         | 1.2.0            | No data     | No data         | No data             | No data               | No data    | No data          | No data            |
-| 13 | Spin             | mds         | 0.4.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 65 | Superpedestrian  | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 14 | Tier             | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 58 | Tier             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 60 | Velospot         | gbfs        | 2                | 0           | 0               | ⭐⭐                | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 17 | Voi              | mds         | 1.2.0            | ⭐          | ⭐              | ⭐⭐⭐⭐⭐          | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐               |
-| 30 | WIND             | mds         | 0.4.1            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-|  8 | Yego             | mds         | 1.2.0            | ⭐⭐        | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | 0          | 0                | 0                  |
-| 37 | Yourcar          | mds         | 2.0.0            | No data     | No data         | ⭐⭐⭐⭐            | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 44 | Zeus             | mds         | 1.0              | ⭐⭐⭐⭐    | ⭐⭐⭐⭐⭐      | ⭐⭐⭐              | ⭐⭐                  | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐             |
-| 55 | ZigZag           | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 53 | Zisch            | mds         | 1.0              | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐   | 0                | ⭐⭐⭐⭐⭐         |
-| 69 | bleeperbike      | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | 0          | ⭐               | ⭐⭐⭐⭐⭐         |
-| 50 | cargoroo         | gbfs        | 1                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 16 | donkey           | mds         | 2.0.0.donkey     | No data     | No data         | 0                   | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 36 | emmy             | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐⭐            | 0                     | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-|  4 | highspeedservice | mds         | 0.3.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-|  6 | hopp             | mds         | 2.0.0            | No data     | No data         | ⭐⭐⭐⭐            | ⭐⭐⭐                | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 19 | hopp             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐              | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 56 | moby             | gbfs        | 2                | 0           | 0               | ⭐⭐⭐⭐⭐          | No data               | ⭐⭐⭐⭐⭐ | ⭐               | ⭐⭐⭐⭐⭐         |
-| 70 | neuron           | mds         | 2.0.0            | No data     | No data         | ⭐⭐⭐⭐⭐          | ⭐⭐⭐⭐⭐            | ⭐⭐⭐⭐⭐ | 0                | ⭐⭐⭐⭐⭐         |
-| 45 | nextbike         | mds         | 2.0.0            | ⭐          | ⭐              | ⭐⭐⭐⭐⭐          | 0                     | ⭐⭐⭐⭐⭐ | 0                | ⭐                 |
-| 24 | nextbike         | gbfs        | 2                | 0           | 0               | ⭐⭐                | 0                     | ⭐⭐⭐⭐   | ⭐               | ⭐⭐⭐⭐⭐         |
-|  2 | sharebike        | mds         | 1.2.0            | No data     | No data         | No data             | No data               | No data    | No data          | No data            |
-| 25 | yego             | mds         | 1.2.0            | No data     | No data         | ⭐⭐⭐              | ⭐⭐⭐⭐⭐            | 0          | 0                | ⭐⭐⭐⭐⭐         |
-## SLI measure
+# Data quality of mobility operators
 
-### Telemetry score
+Cities and customers use this page to see how good the data of each mobility operator is. Vianova checks the data every day and shows the result for each operator and feed type, so that you can decide how much you can trust it.
 
-#### Classification
+**Last updated:** 2026-10-19 (UTC)
 
-For all feeds, we compute the number of trips updates we have per minute.
+## How to read this table
 
-`CEIL(AVG(DIV0(ST_NPOINTS(trip_trajectory), trip_duration / 60.0)))`
+Each row gives the typical values of one operator for one feed type (MDS or GBFS). Incidents and Reactivity show the median, so that one extreme feed does not set the level. The other indicators show the average. The colour is calculated from the value that is shown, so the colour and the number always agree.
 
-We count the number of points we have for one full trip.
-We divide it by the trip duration (in minutes).
-We compute the average of this indicator for all trips a feed sent
-=> We have an average number of trip updates per minute a feed gives.
+- 🟢 **Good**: the value is at the best level of the indicator.
+- 🟠 **Fair**: the value is between Good and Poor.
+- 🔴 **Poor**: the value is below the level that we expect.
+- **n/a**: the indicator does not apply to this feed type. Telemetry, Trip distance and Freshness do not apply to GBFS feeds.
+- **–**: we have no measurement for this indicator. A dash is not a bad score.
+- **Range**: a range in brackets after the value, for example "(40–200 h)", shows the lowest and the highest value of the operator. The page shows a range only when enough measurements exist and they are not all the same. Incidents never show a range.
 
-Warning : The GBFS feeds only have start and end points information, they will always have 0 for this indicator.
+The levels and the time window of each indicator are in the sections below the table.
 
-Based on the number of trip updates per minute, we can attribute a score to the feed, as you can see on the table below :
+## Operators
 
-#### Scoring
-- 0 Only start/end trip
-- 1 telemetry per minute < 1
-- 2 telemetry per minute < 2
-- 3 telemetry per minute < 3
-- 4 telemetry per minute >= 6
-- 5 Full telemetry of the trip
+| Operator | Type | Telemetry | Trip distance | Incidents | Reactivity | Uptime | Freshness |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Atom | MDS | 🟢 12 /min | 🟢 1.26 | 🟢 112 days ago | – | 🟢 99.0 % | – |
+| Beam | MDS | 🟢 21 /min (15–26 /min) | 🟢 1.10 (0.76–1.29) | 🟢 315 days ago | – | 🟢 100.0 % | – |
+| Bird | MDS | 🟢 8 /min (6–13 /min) | 🟢 1.31 (1.26–1.40) | 🟠 32 days ago | 🟠 89 h (2–741 h) | 🔴 95.5 % (87.0–100.0 %) | 🔴 101 s (12–144 s) |
+| Bolt | MDS | 🟢 10 /min (1–15 /min) | 🟢 1.25 (1.22–1.29) | 🟢 112 days ago | 🟢 36 h (1–8657 h) | 🟢 100.0 % | 🟠 23 s (2–88 s) |
+| cargoroo | GBFS | n/a | n/a | 🟢 > 1 year | – | 🟢 100.0 % | n/a |
+| Check | GBFS | n/a | n/a | 🟢 122 days ago | – | 🔴 58.0 % | n/a |
+| Cooltra | MDS | 🔴 1 /min | 🟢 1.62 | 🟠 28 days ago | 🟢 36 h | 🟢 100.0 % | 🟠 25 s |
+| Donkey | MDS | 🔴 1 /min | – | 🔴 1 day ago | – | 🟢 100.0 % | – |
+| Dott | MDS | 🟢 6 /min (4–11 /min) | 🟢 1.38 (1.27–1.78) | 🟢 112 days ago | 🟢 6 h (1–974 h) | 🟠 97.2 % (73.0–100.0 %) | – |
+| Edog | MDS | 🔴 1 /min | 🟢 1.25 | 🟠 40 days ago | 🟢 1 h | 🟠 98.0 % | – |
+| Hopp | MDS | 🔴 1 /min | 🟢 1.24 (1.20–1.28) | 🟢 102 days ago | 🟠 88 h | 🟢 100.0 % | – |
+| Hopp | GBFS | n/a | n/a | 🔴 1 day ago | – | 🟢 100.0 % | n/a |
+| Lime | MDS | 🟠 4 /min (3–7 /min) | 🟢 1.19 (1.12–1.31) | 🟠 87 days ago | 🔴 295 h (1–14443 h) | 🟢 99.8 % (96.0–100.0 %) | – |
+| moby | GBFS | n/a | n/a | 🟢 112 days ago | – | 🟢 100.0 % | n/a |
+| nextbike | GBFS | n/a | n/a | 🔴 1 day ago | – | 🟢 99.9 % (99.0–100.0 %) | n/a |
+| Pick_e_bike | GBFS | n/a | n/a | 🟢 112 days ago | – | 🟢 100.0 % | n/a |
+| Pikyrent | GBFS | n/a | n/a | 🔴 1 day ago | – | 🔴 84.0 % | n/a |
+| Pony | MDS | 🔴 1 /min | 🟢 1.40 | 🟠 13 days ago | 🔴 750 h | 🔴 78.5 % | – |
+| Poppy | GBFS | n/a | n/a | 🟠 42 days ago | – | 🔴 95.0 % | n/a |
+| Publibike | GBFS | n/a | n/a | 🟠 12 days ago | 🔴 429 h | 🟢 100.0 % | n/a |
+| RideMovi | MDS | 🟠 4 /min | 🔴 0.00 | 🟢 112 days ago | – | 🟢 99.3 % (98.0–100.0 %) | 🟠 35 s (17–59 s) |
+| Ryde | MDS | 🔴 2 /min (2–4 /min) | 🟢 1.33 (1.27–1.38) | 🟠 62 days ago | 🟢 50 h (13–275 h) | 🟢 99.8 % (99.0–100.0 %) | 🟠 24 s (6–75 s) |
+| Velospot | GBFS | n/a | n/a | 🟠 12 days ago | – | 🟢 100.0 % | n/a |
+| Voi | MDS | 🔴 1 /min (1–2 /min) | 🟢 1.31 (1.00–1.42) | 🟢 112 days ago | 🟠 95 h (1–1775 h) | 🟢 99.8 % (96.0–100.0 %) | 🟠 19 s (12–26 s) |
+| Yego | MDS | 🟠 3 /min | 🟢 1.70 | 🟠 35 days ago | 🟢 27 h | 🔴 76.0 % | – |
+| Zeus | MDS | 🟠 4 /min | – | 🔴 1 day ago | 🔴 480 h | 🟢 100.0 % | 🔴 129 s |
+| Zisch | MDS | – | – | 🟢 112 days ago | – | 🟢 99.0 % | 🔴 115 s |
 
-#### Timeline
-Computed on the last 2 days of data
+## No recent data
 
-### Trip distance score
+We do not score the operators in this list. We have no recent measurement for Telemetry, Trip distance and Freshness, so a score would not describe their data.
 
-#### Classification
+- Neuron (MDS)
 
-This indicator will help us know how precise is the trip distance given by a feed. We base the assumption on : if a trip distance is ~= to the crow fly distance between the start point and end point, it means that the trip distance computed by the feed used a crow fly measurement, instead of computing the real distance based on the streets.
+## The indicators
 
-We make a ratio between the crow fly distance computed by us and the trip distance given by the feed. If this ratio is close to 1, it means that the trip distance has been computed using a crow-fly distance.
+### Telemetry
 
-Warning : The GBFS feeds will always have 0 for this indicator.
+**What it measures:** How often the operator sends the position of a vehicle during a trip.
 
-#### Scoring
-- 0 : GBFS
-- 1: Ratio < 1.1
-- 5: Ratio > 1.1
+**Why it matters:** More positions show the real route of each trip. Few positions only show where a trip started and ended.
 
-#### Timeline
-Computed on the last 3 days of data
+**Levels:**
 
-### Incidents score
+- 🟢 Good: 5 or more updates per minute
+- 🟠 Fair: 3 to 5
+- 🔴 Poor: fewer than 3
 
-#### Classification
+**Time window:** last 2 days
 
-The data pipeline is complex consist in 4 distincts steps. At each steps incidents can occurs.
+**Operator value:** the average of the feeds of the operator.
 
-##### Extract
-At the extraction step, any of this HTTP issue will be consider as an incident
+**Applies to:** MDS feeds. GBFS feeds show n/a.
 
-- provider_system_down (timeout)
-- provider_system_status (HTTP 500)
-- provider_system_auth (HTTP 401)
+### Trip distance
 
-##### Load / Transform / Serve
-During those step, various problems can occurs, please find an non exhaustive list of issues.
+**What it measures:** The trip distance that the operator reports, divided by the straight-line distance from start to end.
 
-- provider_data_valid(specs) 
-- provider_data_complete (missing field)
-- provider_data_accuracy (invalid field) 
-- provider_data_integrity (wrong relation)
-- provider_kpi_availiblity (not accessible)
-In order to simplify, we will detect when there is a low number of trips VS the number of devices that we can detect.
-We will count 1 drop as an incident, even if the drop continues over time.
+**Why it matters:** A ratio near 1 means that the operator reports a straight line, not the distance along the streets.
 
-#### Scoring
-- 0 less than 1 over the last day
-- 1 less than 1 over the last 3 days
-- 2 less than 1 over the last week
-- 3 less than 1 over the last month
-- 4 less than 1 over the last 3 month
-- 5 less than 0 over the last 6 month
+**Levels:**
 
-#### Timeline
-Computed on the last 6 month of data
+- 🟢 Good: 1.1 or more (distance along the streets)
+- 🔴 Poor: below 1.1 (straight line)
 
-### Provider reactivity
+**Time window:** last 3 days, up to 1,000 trips
 
-#### Classification
-When a feed request is sent through Cityscope, the provider is notified about it and has to accept (or not) to give access to their mobility data, to be visualized through Cityscope.
-For this indicator, we compute the average delay a provider takes to answer a feed request from a city/customer.
+**Operator value:** the average of the feeds of the operator.
 
-#### Scoring
-delay_in_hours is the average response in hours from providers
+**Applies to:** MDS feeds. GBFS feeds show n/a.
 
-- 5 : delay_in_hours <= 48 hours (2 days)
-- 4 : delay_in_hours <= 72 hours (3 days)
-- 3 : delay_in_hours <= 96 hours (4 days)
-- 2 : delay_in_hours <= 168 hours (7 days)
-- 1 : delay_in_hours <= 336 hours (14 days)
-- 0 : delay_in_hours > 336 hours (14 days)
+### Incidents
 
-#### Timeline
-Average response per provider is computed since the first feed request that happened in cityscope
+**What it measures:** The number of days since the last data incident (API down, login error, missing or invalid data), for a typical feed of the operator.
 
-### API Uptime
+**Why it matters:** A recent incident means that data can be missing or wrong for some period.
 
-#### Classification
+**Levels:**
 
-We will compute the uptime of the different feeds.
+- 🟢 Good: no incident for more than 90 days
+- 🟠 Fair: last incident 7 to 90 days ago
+- 🔴 Poor: last incident less than 7 days ago
 
-We  keeps track of all ingestion errors that happened on the feeds. One ingestion error matches to 1 feed not being able to be reached (or some other errors) for 1 minute.
+**Time window:** all history
 
-Based on this data, we can compute average uptime of the feeds (since 03/2022, when we started keeping ingestion errors)
+**Operator value:** the median of the feeds of the operator.
 
-#### Scoring
+**Applies to:** MDS and GBFS feeds.
 
-uptime is a percentage between 0 and 1
+### Reactivity
 
-- 0 : uptime < 0.96
-- 1 : uptime < 0.97
-- 2 : uptime < 0.98
-- 3 : uptime < 0.99
-- 4 : uptime < 1
-- 5 : uptime = 1
+**What it measures:** The time that the operator takes to accept or reject a data request from a city, for a typical feed of the operator.
 
-#### Timeline
-If the feed ingestion started before 03/2022, computed since 03/2022 else computed since the oldest feed ingestion date
+**Why it matters:** A slow answer delays the moment when a city can see the data.
 
-### Data freshness
+**Levels:**
 
-#### Classification
+- 🟢 Good: 72 hours or less
+- 🟠 Fair: 72 hours to 7 days
+- 🔴 Poor: more than 7 days
 
-This indicator will help us to know how fresh is the data sent by the providers API. We will compare the most recent events in the API response to the time we actually asked for the data. If the average difference (in seconds) is high, it means the data is not fresh enough. It will have impact on showing devices in real time.
+**Time window:** all data requests since the first one
 
-For GBFS feeds, we only have one update per minute, so the score will always be 1
+**Operator value:** the median of the feeds of the operator.
 
-For MDS, we take the most recent event in the API response compared to the call execution time.
+**Applies to:** MDS and GBFS feeds.
 
-#### Scoring
+### Uptime
 
-avgdiff = Average difference in seconds
+**What it measures:** The share of minutes when we could read the operator API without an error.
 
-- 5 : avgdiff < 5
-- 4 : avgdiff < 10
-- 3 : avgdiff < 15
-- 2 : avgdiff < 30
-- 1 : avgdiff < 60 or feed = GBFS
-- 0 : avgdiff < 60*5 (5 min)
+**Why it matters:** Each minute of downtime is a gap in the data.
 
-#### Timeline
-Computed on the last week of data for MDS
-### Vehicles on prow
+**Levels:**
 
-#### Classification
+- 🟢 Good: 99 % or more
+- 🟠 Fair: 97 % to 99 %
+- 🔴 Poor: below 97 %
 
-We will find the feeds where we lost devices.
+**Time window:** since March 2022, or since the first data if later
 
-We define a “lost device” as a device that has not given any update for more than 7 days in a row across the whole history fleet.
+**Operator value:** the average of the feeds of the operator.
 
-Basically, if a vehicle is lost or is in PROW, it's a bad rate for this indicator.
+**Applies to:** MDS and GBFS feeds.
 
-A Public Right Of Way (PROW) is a way, which the public have a right to pass and re-pass providing that the public stay on the route and do not cause a nuisance or obstruction. The purpose of Public Rights Of Way is to protect the rights of the public to use these accesses and also to prevent their obstruction.
+### Freshness
 
-#### Scoring
+**What it measures:** The average delay between the newest event in the operator data and the time of our call.
 
-vehicle_state_on_prow
+**Why it matters:** A long delay means that the map does not show the vehicles in real time.
 
-- 0 : vehicle_state_on_prow = False
-- 5 : vehicle_state_on_prow = True
+**Levels:**
 
-#### Timeline
-Computed on the last 3 month of data
+- 🟢 Good: less than 15 seconds
+- 🟠 Fair: 15 to 60 seconds
+- 🔴 Poor: 60 seconds or more
+
+**Time window:** last 7 days
+
+**Operator value:** the average of the feeds of the operator.
+
+**Applies to:** MDS feeds. GBFS feeds show n/a.
