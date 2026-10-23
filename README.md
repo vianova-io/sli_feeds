@@ -2,7 +2,7 @@
 
 Cities and customers use this page to see how good the data of each mobility operator is. Vianova checks the data every day and shows the result for each operator and feed type, so that you can decide how much you can trust it.
 
-**Last updated:** 2026-10-22 (UTC)
+**Last updated:** 2026-10-23 (UTC)
 
 ## How to read this table
 
@@ -21,33 +21,33 @@ The levels and the time window of each indicator are in the sections below the t
 
 | Operator | Type | Telemetry | Trip distance | Incidents | Reactivity | Uptime | Freshness |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Atom | MDS | 🟢 12 /min | 🟢 1.27 | 🟢 115 days ago | – | 🟢 99.0 % | – |
-| Beam | MDS | 🟢 25 /min (18–29 /min) | 🟢 1.19 (1.11–1.26) | 🟢 318 days ago | – | 🟢 100.0 % | – |
-| Bird | MDS | 🟢 8 /min (6–13 /min) | 🟢 1.29 (1.22–1.36) | 🟠 59 days ago | 🟠 89 h (2–741 h) | 🔴 95.2 % (87.0–100.0 %) | 🔴 101 s (13–165 s) |
-| Bolt | MDS | 🟢 10 /min (1–15 /min) | 🟢 1.24 (1.22–1.29) | 🟢 115 days ago | 🟢 36 h (1–8657 h) | 🟢 100.0 % | 🟠 23 s (2–90 s) |
+| Atom | MDS | 🟢 12 /min | 🟢 1.27 | 🟢 116 days ago | – | 🟢 99.0 % | – |
+| Beam | MDS | 🟢 25 /min (18–29 /min) | 🟢 1.19 (1.11–1.26) | 🟢 319 days ago | – | 🟢 100.0 % | – |
+| Bird | MDS | 🟢 8 /min (6–13 /min) | 🟢 1.29 (1.22–1.36) | 🟠 60 days ago | 🟠 89 h (2–741 h) | 🔴 95.2 % (87.0–100.0 %) | 🔴 101 s (13–165 s) |
+| Bolt | MDS | 🟢 10 /min (1–15 /min) | 🟢 1.24 (1.22–1.29) | 🟢 116 days ago | 🟢 36 h (1–8657 h) | 🟢 100.0 % | 🟠 23 s (2–90 s) |
 | cargoroo | GBFS | n/a | n/a | 🟢 > 1 year | – | 🟢 100.0 % | n/a |
-| Check | GBFS | n/a | n/a | 🟢 125 days ago | – | 🔴 57.0 % | n/a |
-| Cooltra | MDS | 🔴 1 /min | 🟢 1.59 | 🟠 31 days ago | 🟢 36 h | 🟢 100.0 % | 🟠 29 s |
-| Donkey | MDS | 🔴 1 /min | – | 🔴 1 day ago | – | 🟢 100.0 % | – |
-| Dott | MDS | 🟢 6 /min (4–14 /min) | 🟢 1.36 (1.27–1.68) | 🟢 115 days ago | 🟢 6 h (1–974 h) | 🟠 97.2 % (73.0–100.0 %) | – |
-| Edog | MDS | 🔴 1 /min | 🟢 1.20 | 🟠 43 days ago | 🟢 1 h | 🟠 98.0 % | – |
-| Hopp | MDS | 🔴 1 /min | 🟢 1.17 (1.11–1.24) | 🟢 105 days ago | 🟠 88 h | 🟢 100.0 % | – |
-| Hopp | GBFS | n/a | n/a | 🔴 1 day ago | – | 🟢 100.0 % | n/a |
-| Lime | MDS | 🟠 4 /min (2–7 /min) | 🟢 1.17 (1.10–1.24) | 🟠 90 days ago | 🔴 295 h (1–14443 h) | 🟢 99.8 % (96.0–100.0 %) | – |
-| moby | GBFS | n/a | n/a | 🟢 115 days ago | – | 🟢 100.0 % | n/a |
-| nextbike | GBFS | n/a | n/a | 🔴 3 days ago | – | 🟢 99.9 % (99.0–100.0 %) | n/a |
-| Pick_e_bike | GBFS | n/a | n/a | 🟢 115 days ago | – | 🟢 100.0 % | n/a |
-| Pikyrent | GBFS | n/a | n/a | 🔴 2 days ago | – | 🔴 83.0 % | n/a |
-| Pony | MDS | 🔴 1 /min | 🟢 1.36 | 🟠 16 days ago | 🔴 750 h | 🔴 77.5 % | – |
-| Poppy | GBFS | n/a | n/a | 🟠 45 days ago | – | 🔴 95.0 % | n/a |
-| Publibike | GBFS | n/a | n/a | 🟠 15 days ago | 🔴 429 h | 🟢 100.0 % | n/a |
-| RideMovi | MDS | 🟠 4 /min | 🔴 0.00 | 🟢 115 days ago | – | 🟢 99.3 % (98.0–100.0 %) | 🟠 40 s (19–70 s) |
-| Ryde | MDS | 🔴 2 /min (2–5 /min) | 🟢 1.32 (1.27–1.38) | 🟠 65 days ago | 🟢 50 h (13–275 h) | 🟢 99.8 % (99.0–100.0 %) | 🟠 24 s (4–76 s) |
-| Velospot | GBFS | n/a | n/a | 🟠 15 days ago | – | 🟢 100.0 % | n/a |
-| Voi | MDS | 🔴 1 /min (1–2 /min) | 🟢 1.30 (1.00–1.40) | 🟢 115 days ago | 🟠 95 h (1–1775 h) | 🟢 99.8 % (97.0–100.0 %) | 🟠 20 s (12–26 s) |
-| Yego | MDS | 🟠 3 /min | 🟢 1.55 | 🟠 38 days ago | 🟢 27 h | 🔴 75.0 % | – |
-| Zeus | MDS | 🟢 6 /min | – | 🔴 1 day ago | 🔴 480 h | 🟢 100.0 % | 🔴 121 s |
-| Zisch | MDS | – | – | 🟢 115 days ago | – | 🟢 99.0 % | 🔴 118 s |
+| Check | GBFS | n/a | n/a | 🟢 126 days ago | – | 🔴 57.0 % | n/a |
+| Cooltra | MDS | 🔴 1 /min | 🟢 1.59 | 🟠 32 days ago | 🟢 36 h | 🟢 100.0 % | 🟠 29 s |
+| Donkey | MDS | 🔴 1 /min | – | 🔴 2 days ago | – | 🟢 100.0 % | – |
+| Dott | MDS | 🟢 6 /min (4–14 /min) | 🟢 1.36 (1.27–1.68) | 🟢 116 days ago | 🟢 6 h (1–974 h) | 🟠 97.2 % (73.0–100.0 %) | – |
+| Edog | MDS | 🔴 1 /min | 🟢 1.20 | 🟠 44 days ago | 🟢 1 h | 🟠 98.0 % | – |
+| Hopp | MDS | 🔴 1 /min | 🟢 1.17 (1.11–1.24) | 🟢 106 days ago | 🟠 88 h | 🟢 100.0 % | – |
+| Hopp | GBFS | n/a | n/a | 🔴 2 days ago | – | 🟢 100.0 % | n/a |
+| Lime | MDS | 🟠 4 /min (2–7 /min) | 🟢 1.17 (1.10–1.24) | 🟢 91 days ago | 🔴 295 h (1–14443 h) | 🟢 99.8 % (96.0–100.0 %) | – |
+| moby | GBFS | n/a | n/a | 🟢 116 days ago | – | 🟢 100.0 % | n/a |
+| nextbike | GBFS | n/a | n/a | 🔴 4 days ago | – | 🟢 99.9 % (99.0–100.0 %) | n/a |
+| Pick_e_bike | GBFS | n/a | n/a | 🟢 116 days ago | – | 🟢 100.0 % | n/a |
+| Pikyrent | GBFS | n/a | n/a | 🔴 3 days ago | – | 🔴 83.0 % | n/a |
+| Pony | MDS | 🔴 1 /min | 🟢 1.36 | 🟠 17 days ago | 🔴 750 h | 🔴 77.5 % | – |
+| Poppy | GBFS | n/a | n/a | 🟠 46 days ago | – | 🔴 95.0 % | n/a |
+| Publibike | GBFS | n/a | n/a | 🟠 16 days ago | 🔴 429 h | 🟢 100.0 % | n/a |
+| RideMovi | MDS | 🟠 4 /min | 🔴 0.00 | 🟢 116 days ago | – | 🟢 99.3 % (98.0–100.0 %) | 🟠 40 s (19–70 s) |
+| Ryde | MDS | 🔴 2 /min (2–5 /min) | 🟢 1.32 (1.27–1.38) | 🟠 66 days ago | 🟢 50 h (13–275 h) | 🟢 99.8 % (99.0–100.0 %) | 🟠 24 s (4–76 s) |
+| Velospot | GBFS | n/a | n/a | 🟠 16 days ago | – | 🟢 100.0 % | n/a |
+| Voi | MDS | 🔴 1 /min (1–2 /min) | 🟢 1.30 (1.00–1.40) | 🟢 116 days ago | 🟠 95 h (1–1775 h) | 🟢 99.8 % (97.0–100.0 %) | 🟠 20 s (12–26 s) |
+| Yego | MDS | 🟠 3 /min | 🟢 1.55 | 🟠 39 days ago | 🟢 27 h | 🔴 75.0 % | – |
+| Zeus | MDS | 🟢 6 /min | – | 🔴 2 days ago | 🔴 480 h | 🟢 100.0 % | 🔴 121 s |
+| Zisch | MDS | – | – | 🟢 116 days ago | – | 🟢 99.0 % | 🔴 118 s |
 
 ## No recent data
 
