@@ -2,7 +2,7 @@
 
 Cities and customers use this page to see how good the data of each mobility operator is. Vianova checks the data every day and shows the result for each operator and feed type, so that you can decide how much you can trust it.
 
-**Last updated:** 2026-11-17 (UTC)
+**Last updated:** 2026-11-18 (UTC)
 
 To search, filter and sort the table, open the [interactive page](https://vianova-io.github.io/sli_feeds/).
 
@@ -24,31 +24,30 @@ The levels and the time window of each indicator are in the sections below the t
 | Operator | Type | Telemetry | Trip distance | Incidents (90 days) | Reactivity | Uptime | Freshness |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Atom | MDS | 🟢 12 /min | 🟢 1.25 | 🟢 0 | – | 🟢 99.0 % | – |
-| Beam | MDS | 🟢 23 /min (19–26 /min) | 🔴 1.09 (0.69–1.29) | 🟢 0 | – | 🟢 100.0 % | – |
-| Bird | MDS | 🟢 8 /min (6–13 /min) | 🟢 1.29 (1.23–1.36) | 🟠 2 | 🟠 89 h (2–741 h) | 🔴 95.4 % (88.0–100.0 %) | 🔴 90 s (12–135 s) |
-| Bolt | MDS | 🟢 9 /min (1–15 /min) | 🟢 1.24 (1.20–1.28) | 🟢 0 | 🟢 36 h (1–8657 h) | 🟢 100.0 % | 🟠 28 s (3–102 s) |
+| Beam | MDS | 🟢 15 /min (11–18 /min) | 🟢 1.17 (0.95–1.29) | 🟢 0 | – | 🟢 100.0 % | – |
+| Bird | MDS | 🟢 8 /min (6–12 /min) | 🟢 1.28 (1.23–1.32) | 🟠 2 | 🟠 89 h (2–741 h) | 🔴 95.4 % (88.0–100.0 %) | 🔴 90 s (13–136 s) |
+| Bolt | MDS | 🟢 9 /min (1–15 /min) | 🟢 1.24 (1.20–1.30) | 🟢 0 | 🟢 36 h (1–8657 h) | 🟢 100.0 % | 🟠 28 s (3–102 s) |
 | cargoroo | GBFS | n/a | n/a | 🟢 0 | – | 🟢 100.0 % | n/a |
 | Check | GBFS | n/a | n/a | 🟢 0 | – | 🔴 50.0 % | n/a |
-| Cooltra | MDS | 🔴 1 /min | 🟢 1.55 | 🟢 0 | 🟢 36 h | 🟢 100.0 % | 🟠 42 s |
-| Donkey | MDS | 🔴 1 /min | – | 🔴 248 | – | 🟢 100.0 % | – |
-| Dott | MDS | 🟢 6 /min (4–13 /min) | 🟢 1.35 (1.26–1.78) | 🟢 0 | 🟢 6 h (1–974 h) | 🟠 97.0 % (72.0–100.0 %) | – |
+| Cooltra | MDS | 🔴 1 /min | 🟢 1.56 | 🟢 0 | 🟢 36 h | 🟢 100.0 % | 🟠 50 s |
+| Dott | MDS | 🟢 6 /min (4–13 /min) | 🟢 1.34 (1.23–1.69) | 🟢 0 | 🟢 6 h (1–974 h) | 🟠 97.0 % (73.0–100.0 %) | – |
 | Edog | MDS | 🔴 1 /min | 🟢 1.20 | 🔴 10 | 🟢 1 h | 🟠 98.0 % | – |
-| Hopp | MDS | 🔴 1 /min | 🟢 1.17 (1.11–1.22) | 🟠 2 | 🟠 88 h | 🟢 100.0 % | – |
+| Hopp | MDS | 🔴 1 /min | 🟢 1.18 (1.13–1.23) | 🟠 2 | 🟠 88 h | 🟢 100.0 % | – |
 | Hopp | GBFS | n/a | n/a | 🔴 39 | – | 🟢 100.0 % | n/a |
-| Lime | MDS | 🟠 4 /min (3–8 /min) | 🟢 1.17 (1.10–1.27) | 🟢 0 | 🔴 295 h (1–14443 h) | 🟢 99.8 % (96.0–100.0 %) | – |
+| Lime | MDS | 🟠 4 /min (3–8 /min) | 🟢 1.16 (1.09–1.24) | 🟢 0 | 🔴 295 h (1–14443 h) | 🟢 99.8 % (96.0–100.0 %) | – |
 | moby | GBFS | n/a | n/a | 🟢 0 | – | 🟢 100.0 % | n/a |
-| nextbike | GBFS | n/a | n/a | 🔴 116 | – | 🟢 99.9 % (99.0–100.0 %) | n/a |
+| nextbike | GBFS | n/a | n/a | 🔴 117 | – | 🟢 99.9 % (99.0–100.0 %) | n/a |
 | Pick_e_bike | GBFS | n/a | n/a | 🟢 0 | – | 🟢 100.0 % | n/a |
-| Pikyrent | GBFS | n/a | n/a | 🔴 10 | – | 🔴 76.0 % | n/a |
-| Pony | MDS | 🔴 1 /min | 🟢 1.35 | 🟠 2 | 🔴 750 h | 🔴 75.0 % | – |
+| Pikyrent | GBFS | n/a | n/a | 🔴 10 | – | 🔴 75.0 % | n/a |
+| Pony | MDS | 🔴 1 /min | 🟢 1.36 | 🟠 2 | 🔴 750 h | 🔴 75.0 % | – |
 | Poppy | GBFS | n/a | n/a | 🔴 8 | – | 🔴 95.0 % | n/a |
 | Publibike | GBFS | n/a | n/a | 🔴 49 | 🔴 429 h | 🟢 100.0 % | n/a |
-| RideMovi | MDS | 🟢 5 /min (4–5 /min) | 🔴 0.00 | 🟢 0 | – | 🟢 99.3 % (98.0–100.0 %) | 🟠 46 s (24–78 s) |
-| Ryde | MDS | 🔴 2 /min (2–5 /min) | 🟢 1.31 (1.27–1.35) | 🟢 0 | 🟢 50 h (13–275 h) | 🟢 99.8 % (99.0–100.0 %) | 🟠 33 s (11–86 s) |
-| Velospot | GBFS | n/a | n/a | 🔴 39 | – | 🟢 100.0 % | n/a |
-| Voi | MDS | 🔴 1 /min (1–2 /min) | 🟢 1.30 (1.00–1.38) | 🟢 0 | 🟠 95 h (1–1775 h) | 🟢 99.8 % (97.0–100.0 %) | 🟠 23 s (13–31 s) |
-| Yego | MDS | 🟠 3 /min | 🟢 1.58 | 🔴 4 | 🟢 27 h | 🔴 75.0 % | – |
-| Zeus | MDS | 🟢 6 /min | – | 🔴 180 | 🔴 480 h | 🟢 100.0 % | 🔴 141 s |
+| RideMovi | MDS | 🟠 4 /min (4–5 /min) | 🔴 0.00 | 🟢 0 | – | 🟢 99.3 % (98.0–100.0 %) | 🟠 47 s (24–80 s) |
+| Ryde | MDS | 🔴 2 /min (2–5 /min) | 🟢 1.30 (1.27–1.35) | 🟢 0 | 🟢 50 h (13–275 h) | 🟢 99.8 % (99.0–100.0 %) | 🟠 30 s (1–86 s) |
+| Velospot | GBFS | n/a | n/a | 🔴 43 | – | 🟢 100.0 % | n/a |
+| Voi | MDS | 🔴 1 /min (1–2 /min) | 🟢 1.29 (1.00–1.39) | 🟢 0 | 🟠 95 h (1–1775 h) | 🟢 99.8 % (97.0–100.0 %) | 🟠 23 s (14–32 s) |
+| Yego | MDS | 🟠 3 /min | 🟢 1.62 | 🔴 4 | 🟢 27 h | 🔴 75.0 % | – |
+| Zeus | MDS | 🟢 6 /min | – | 🔴 184 | 🔴 480 h | 🟢 100.0 % | 🔴 148 s |
 | Zisch | MDS | – | – | 🟢 0 | – | 🟢 99.0 % | 🔴 119 s |
 
 ## No recent data
